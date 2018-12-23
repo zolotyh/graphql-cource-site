@@ -233,6 +233,7 @@ body * {
 .plan ul {
   margin: 0;
   padding: 0;
+  padding-left: 4ex;
 }
 .plan li {
   margin-bottom: .5em;
