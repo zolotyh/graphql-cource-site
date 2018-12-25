@@ -189,6 +189,9 @@ body * {
   text-decoration: none;
   border-radius: 40px;
 }
+.buy-button:visited {
+  color: #fff;
+}
 .date {
   font-size: 36px;
   margin-top: 66px;
@@ -225,7 +228,7 @@ body * {
 }
 
 .plan {
-  font-size: 24px;
+  font-size: 18px;
 }
 .plan h2 {
   margin-bottom: 12px;
@@ -234,7 +237,47 @@ body * {
   margin: 0;
   padding: 0;
   padding-left: 4ex;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+.plan ul ul{
+  margin-top: 12px;
+  margin-top: 12px;
+}
+.plan b {
+  font-weight: 600;
 }
 .plan li {
-  margin-bottom: .5em;
+  margin-bottom: 18px;
+}
+.plan li ul li{
+  margin-bottom: 12px;
+}
+
+
+.buy p {
+}
+
+.buy__price {
+  font-size: 48px;
+}
+.buy__price-title {
+  font-size: 18px;
+  margin: 0;
+  color: #9B9B9B;
+}
+.buy__wrapper {
+  border-right: 1px solid #9B9B9B;
+  height: 82px;
+}
+.buy__buy {
+  display: flex;
+  align-items: center;
+  height: 82px;
+}
+.buy__buy > * {
+  margin-right: 2ex;
+}
+.buy__buy > img {
+  height: 3em;
 }
