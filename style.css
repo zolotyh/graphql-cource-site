@@ -294,3 +294,17 @@ body * {
 .sponsors img {
   height: 5em;
 }
+
+.faq_aq {
+  margin-bottom: 2em;
+  padding: 1em 0;
+}
+
+.question {
+  font-size: 24px;
+  margin-bottom: .5em;
+}
+
+.answer {
+  font-size: 18px;
+}
