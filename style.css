@@ -308,3 +308,9 @@ body * {
 .answer {
   font-size: 18px;
 }
+.promo-message {
+  background: #E535AB;
+  color: #fff;
+  font-size: 1.2em;
+  padding: .5em 0;
+}
